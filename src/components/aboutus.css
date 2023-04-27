@@ -1,0 +1,51 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+.aboutus{
+display: flex;
+margin-top: 3%;
+}
+
+.aboutus__one{
+    margin-left: 12%;
+}
+
+.aboutus__two{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.about__two__aboutus{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid black;
+}
+
+.about__two__aboutus>p{
+    font-family: Nunito;
+    text-align: center;
+    margin-top:2px;
+
+}
+.aboutus__two__headline>h1{
+    font-family: Nunito;
+    font-size: 4rem;
+}
+
+.aboutus__two__para>p{
+    font-family: Nunito;
+    font-size: 1rem;
+
+}
+
+.aboutus__two__point{
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0% 0% 1%;
+    font-family: Nunito;
+    font-weight: 900;
+    font-size: 1.5rem;
+}

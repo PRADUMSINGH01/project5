@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+/* @import url('../style.css'); */
+*{
+box-sizing: border-box;
+--first :#000000;
+--second:#F0F0F0;
+--third: #FFFFFF;
+--border-col-one:#151515;
+text-decoration: none;
+
+}
+
+
+.nav{
+    color: var(--first);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Nunito;
+    height: 4rem;
+}
+
+
+.nav__one
+{
+flex-grow: 0.4;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.nav__one__item__two__item{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight:900 ;
+}
+
+
+
+.nav__one__item__two__item>a{
+color: var(--first);
+}
+
+
+.nav__two{
+    display: flex;
+    flex-grow: 0.2;
+    align-items: center;
+
+}
+
+.nav__two__item{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+}
+/* 
+.nav__two__item__one{
+
+} */
+    .nav__two__item_one>a{
+    color: var(--first);
+    font-weight: 900;
+
+}
+
+.nav__two__item_one>a:hover{
+    color: rgb(116, 112, 214);
+}
+
+
+.nav__two__item_two{
+    /* margin-left: 10px; */
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    background-color: var(--first);
+    width: 6rem;
+    height: 2rem;
+
+}
+/* 
+.nav__two__item_two:hover{
+ transition: cubic-bezier(0.755, 0.05, 0.855, 0.06); 
+} */
+
+
+.nav__two__item_two>a{
+    text-align: center;
+    color: var(--third);
+    margin-top: 5px;
+
+
+}

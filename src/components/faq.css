@@ -1,0 +1,52 @@
+
+.faq{
+    margin-left: 7%;
+    margin-top: 6%;
+    display: flex;
+    justify-content: space-around;
+}
+.faq__one{
+    width: 50%;
+}
+
+.faq_one_faq{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid black;
+
+}
+
+
+.faq_one_faq>p{
+    font-family: Nunito;
+    text-align: center;
+    margin-top:2px;
+
+}
+
+
+.faq_one_ques{
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-between;
+}
+.faq_one_ques>div>h1{
+    font-family: Nunito;
+
+
+}
+
+
+.faq_one_headline>div>h1{
+    font-size: 3rem;
+    font-family: Nunito;
+    margin-top: 2%;
+
+}
+
+.faq_show{
+    display:flex;
+}
+.not_show{
+    display: none;
+}

@@ -1,0 +1,39 @@
+
+
+
+.price{
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+
+.price__two__price{
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid black;
+
+}
+.price__two__price>p{
+    font-family: Nunito;
+    text-align: center;
+    margin-top:2px;
+
+}
+.price__two__price__headline>h1{
+    font-family: Nunito;
+margin-top: 1%;
+
+}
+.price__two__price__para{
+    width: 50%;
+    margin-top: 5%;
+}
+.price__two__price__para>p{
+    font-family: Nunito;
+    margin-top: 1%;
+    
+
+}

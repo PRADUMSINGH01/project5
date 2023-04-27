@@ -1,0 +1,62 @@
+
+
+.pricecom{
+    border: 1px solid black;
+    width: 20%;
+    height: 24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pricecom:hover{
+    background-color: #151515;
+    color: whitesmoke;
+}
+
+.pricecom__price{
+    display: flex;
+    width: 100%;
+    position: relative;
+
+}
+
+.pricecom__price>h1{
+    font-size: 3rem;
+    text-align: center;
+    width: 40%;
+}
+.pricecom__price>p{
+    font-weight: bolder;
+    left: 36%;
+    top: 30%;
+    position: absolute;
+}
+
+
+.pricecom__para{
+    font-family: Nunito;
+    text-align: center;
+}
+.pricecom__point{
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    justify-content: space-between;
+    font-family: Nunito;
+    font-weight: 900;
+}
+.pricecom__sub{
+    width: 6rem;
+    height: 2rem;
+    background-color: black;
+    cursor: pointer;
+}
+
+.pricecom__sub>p{
+    font-family: Nunito;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 3%;
+}
