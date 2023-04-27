@@ -7,7 +7,7 @@ const Nav = () => {
 
         <div className="nav__one">
             <div className="nav__one__item__one">
-                <img src={LOGO} alt="logo" srcset="" />
+                <img src={LOGO} alt="logo" srcset=""width={40} />
             </div>
             
                 <div className="nav__one__item__two__item">
