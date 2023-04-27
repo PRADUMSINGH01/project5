@@ -39,3 +39,36 @@
 .howtobuild__one__item__point__one__item>div>h3,p{
     font-family: Nunito;
 }
+
+
+@media screen and (max-width:480px) {
+    .howtobuild{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+    }
+
+    .howtobuild__one__item__headline>h1{
+        font-size: 2rem;
+        margin-left: 0;
+    }
+
+    .howtobuild_two>img{
+        width: 100%;
+
+    }
+    .howtobuild__one__item__point{
+        margin-left: 0;
+        width: 80%;
+    }
+    .howtobuild__one__item__point__one__item>img{
+        width: 60px;
+        margin: 10px;
+    }
+    .howtobuild__one__item__point__one__item>div>h3{
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 20px;
+    
+    }
+}

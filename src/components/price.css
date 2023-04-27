@@ -37,3 +37,19 @@ margin-top: 1%;
     
 
 }
+
+
+
+@media screen and (max-width:480px) {
+    .price{
+        width: 100%;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+    .price__one>img{
+        width: 300px;
+    }
+    .price__two__price__para{
+        width: 100%;
+    }
+}

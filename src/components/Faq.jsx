@@ -202,11 +202,13 @@ const Faq = () => {
       </div>
 
 
-      <div className="faq__two"></div>
+      <div className="faq__two">
 
-      <div className="">
         <img src={img} alt="" srcset="" width={400} />
       </div>
+
+      
+      
     </div>
   );
 };
