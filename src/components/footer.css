@@ -31,3 +31,32 @@
 .footer__copy{
     margin-top: 3%;
 }
+
+
+@media screen  and (max-width:450px) {
+    
+    .footer{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer__one{
+        width: 30%;
+    }
+
+    .footer__icon{
+        width: 10%;
+
+    }
+    .footer__copy{
+        font-size: 13px;
+    }
+.footer__para{
+    font-size: 10px;
+}
+.footer__two{
+    display: none;
+}   
+.footer__three{
+    display: none;
+}    
+}
